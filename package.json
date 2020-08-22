@@ -1,5 +1,5 @@
 {
-  "name": "@dukehe/dukeui",
+  "name": "@dukeliberal/dukeui",
   "version": "0.1.2",
   "private": false,
   "scripts": {
@@ -42,6 +42,9 @@
     "styled-components": "^5.1.1"
   },
   "devDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0",
+    "styled-components": "^5.1.1",
     "react-scripts": "3.4.3",
     "typescript": "~3.7.2",
     "@testing-library/jest-dom": "^4.2.4",
@@ -74,7 +77,8 @@
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "sideEffects": false,
+  "repository": "https://github.com/dukeliberal/dukeui",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@dukehe"
+    "registry": "https://npm.pkg.github.com/@dukeliberal"
   }
 }
